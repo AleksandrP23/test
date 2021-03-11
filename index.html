@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Titles -->
+	<title>Блок диаграмма</title>
+
+	<!-- Syles -->
+	<link rel="stylesheet" href="libs/normalze/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<section class="card">
+		<div class="container">
+			<div class="card-item">
+				<div class="card-circle">
+					<svg style="width: 38px; height:46px" class="cir">
+						<use xlink:href="./img/sprite.svg#svg4022"> </use>
+					</svg>
+					<svg style="width: 285px; height:285px" >
+						<use xlink:href="./img/sprite.svg#cir"> </use>
+					</svg>
+					<div class="card-desc">
+						<span class="card-desc__num">72.<span>7</span></span>
+						<span class="card-desc__label">Лояльность</span>
+						<span class="card-desc__total">ниже среднего</span>
+						<span class="card-desc__text">по отрасли: FMCG значений слева от медианы 52.0% -83.1%</span>
+						<span class="card-desc__indicator">3.1</span>
+					</div>
+				</div>
+				<div class="card-result">
+					<div class="card-result__item">
+						<span class="card-result__name">Промоутеры</span>
+						<div class="card-result__quantity card-quantity">
+							<span class="card-quantity__percent">32.0%</span>
+							<span class="card-quantity__person">
+								81
+								<svg style="width: 12px; height:12px" >
+									<use xlink:href="./img/sprite.svg#pers"> </use>
+								</svg></span>
+						</div>
+						<div class="card-result__amend card-amend card-amend--promo"> 
+							<span class="card-amend__num">+1.2%</span>
+						</div>
+					</div>
+					<div class="card-result__item">
+						<span class="card-result__name">Скептики</span>
+						<div class="card-result__quantity card-quantity">
+							<span class="card-quantity__percent">39.1%</span>
+							<span class="card-quantity__person">
+								8
+								<svg style="width: 12px; height:12px" >
+									<use xlink:href="./img/sprite.svg#pers"> </use>
+								</svg></span>
+						</div>
+						<div class="card-result__amend card-amend card-amend--skept"> 
+							<span class="card-amend__num">+4.8%</span>
+						</div>
+					</div>
+					<div class="card-result__item">
+						<span class="card-result__name">Критики</span>
+						<div class="card-result__quantity card-quantity">
+							<span class="card-quantity__percent">79.8%</span>
+							<span class="card-quantity__person">
+								7
+								<svg style="width: 12px; height:12px" >
+									<use xlink:href="./img/sprite.svg#pers"> </use>
+								</svg></span>
+						</div>
+						<div class="card-result__amend card-amend card-amend--crit"> 
+							<span class="card-amend__num">-9.7%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="libs/progressbarJS/circle-progress.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
